@@ -19,7 +19,7 @@ public class TimeController {
 		StringBuffer sb = new StringBuffer();
 		
 		sb.append("<meta http-equiv=\"refresh\" content=\"2\">");
-		String msg = String.format("The time is %s", time);
+		String msg = String.format("The time NOW is %s", time);
 		sb.append(msg);
 		return sb.toString();
 	}
